@@ -25,14 +25,13 @@ The baseline U.S. energy-market system currently includes:
 
 The empirical workflow follows these steps:
 
-1. ingest raw level data;
-2. align dates and clean formats;
-3. compute log returns;
-4. estimate TVP-VAR-BK spillovers;
-5. export total, short-term, and long-term connectedness;
-6. construct machine-learning features from spillover outputs;
-7. construct a single forward-looking output variable based on system Expected Shortfall;
-8. evaluate ML readiness before formal modeling.
+clean raw data
+compute returns
+run TVP-VAR-DY
+export TCI / TO / FROM / NET
+build DY-based ML features
+merge with forward 60d system ES
+run baseline ML
 
 ## Repository structure
 
