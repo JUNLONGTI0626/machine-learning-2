@@ -8,8 +8,8 @@ Standardize raw U.S. energy-market data into a single aligned daily dataset.
 ### prepare-analysis-data
 Transform aligned level data into analysis-ready return data and basic diagnostics.
 
-### run-tvpvar-bk
-Estimate time-frequency connectedness using TVP-VAR-BK and export spillover outputs.
+### run-tvpvar-dy
+Estimate time-varying connectedness using the TVP-VAR-DY framework and export total and directional spillover outputs.
 
 ### build-ml-features
 Convert spillover outputs into feature matrices for machine-learning tasks.
