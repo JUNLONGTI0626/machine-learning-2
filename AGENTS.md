@@ -1,12 +1,11 @@
 ## Project mission
 This repository supports research on the U.S. energy market using time-varying connectedness models and machine-learning-based early warning.
 
-The current project goal is:
-1. build a clean daily dataset for major U.S. energy-market variables;
-2. estimate time-frequency spillovers using TVP-VAR-BK;
-3. evaluate whether spillover outputs can be used as machine-learning features;
-4. construct a single forward-looking output variable based on system Expected Shortfall;
-5. support paper-ready empirical writing.
+Current project goal:
+1. build a clean daily dataset for the U.S. energy market;
+2. estimate dynamic connectedness using TVP-VAR-DY;
+3. construct ML features from total and directional spillovers;
+4. predict forward 60-day system Expected Shortfall.
 
 ## Working principles
 - Prefer reproducible scripts over manual operations.
