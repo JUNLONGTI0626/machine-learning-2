@@ -7,7 +7,7 @@ This repository supports research on the U.S. energy market using time-varying c
 The project focuses on three linked tasks:
 
 1. build a clean daily dataset for major U.S. energy-market variables;
-2. estimate time-frequency spillovers using the TVP-VAR-BK framework;
+2. estimate time-frequency spillovers using the TVP-VAR-DY framework;
 3. evaluate whether spillover outputs can be used as machine-learning features to predict a forward-looking system Expected Shortfall.
 
 ## Core variables
@@ -46,7 +46,7 @@ run baseline ML
 │   └── skills/
 │       ├── ingest-energy-data/
 │       ├── prepare-analysis-data/
-│       ├── run-tvpvar-bk/
+│       ├── run-tvpvar-DY/
 │       ├── build-ml-features/
 │       ├── estimate-system-es/
 │       ├── evaluate-ml-readiness/
