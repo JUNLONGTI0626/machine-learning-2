@@ -1,0 +1,10 @@
+label_quantile,model,class_weight,threshold_rule,threshold,roc_auc,average_precision,f1,precision,recall,balanced_accuracy,score_source,selected
+80,majority_class,none,train_majority,,0.5,0.2826086956521739,0.0,0.0,0.0,0.5,train_prevalence,False
+80,logistic_regression,balanced,default_0.5,0.5,0.6212121212121212,0.3752589301269399,0.39215686274509803,0.4,0.38461538461538464,0.5786713286713286,predict_proba,False
+80,logistic_regression,balanced,tuned_max_f1,0.36127743076592134,0.6212121212121212,0.3752589301269399,0.5862068965517241,0.53125,0.6538461538461539,0.7132867132867133,predict_proba,True
+85,majority_class,none,train_majority,,0.5,0.21739130434782608,0.0,0.0,0.0,0.5,train_prevalence,False
+85,logistic_regression,balanced,default_0.5,0.5,0.825,0.42650372688016364,0.2777777777777778,0.3125,0.25,0.5486111111111112,predict_proba,False
+85,logistic_regression,balanced,tuned_max_f1,0.6165332148148472,0.825,0.42650372688016364,0.2222222222222222,0.42857142857142855,0.15,0.5472222222222222,predict_proba,True
+90,majority_class,none,train_majority,,0.5,0.21739130434782608,0.0,0.0,0.0,0.5,train_prevalence,False
+90,logistic_regression,balanced,default_0.5,0.5,0.15972222222222227,0.13942161404631853,0.0,0.0,0.0,0.375,predict_proba,False
+90,logistic_regression,balanced,tuned_max_f1,0.20957080063547606,0.15972222222222227,0.13942161404631853,0.0,0.0,0.0,0.2777777777777778,predict_proba,True
